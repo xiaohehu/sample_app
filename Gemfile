@@ -5,13 +5,13 @@ ruby '2.2.2'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 group :development, :text do
-	gem 'sqlite3'
-	gem 'rspec-rails'
+  gem 'sqlite3'
+  gem 'rspec-rails'
 end
 
 group :test do
-	gem 'selenium-webdriver'
-	gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'capybara'
 end
 
 # Use SCSS for stylesheets

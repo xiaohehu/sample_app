@@ -8,7 +8,10 @@ group :development, :text do
   gem 'sqlite3'
   gem 'rspec-rails'
 end
-
+group :development do
+  gem 'taps'
+  gem 'rvm'
+end
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
